@@ -24,8 +24,9 @@ jobs:
     name: Run tests
     runs-on: ubuntu-latest
     steps:
-      run: cargo test
-  
+      - name: run cargo test
+        run: cargo test
+
   release: 
     name: Release project
     runs-on: ubuntu-latest
