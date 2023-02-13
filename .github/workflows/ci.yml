@@ -23,8 +23,8 @@ jobs:
   test: 
     name: Run tests
     runs-on: ubuntu-latest
-    steps: 
-    run: cargo test
+    steps:
+      run: cargo test
   
   release: 
     name: Release project
