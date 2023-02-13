@@ -13,14 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Build project
-        run: cargo build
+        run: cargo build --release
       - name: Run tests
         run: cargo test --verbose
       - name: upload binary file artifact
         uses: actions/upload-artifact@v3
         with: 
           name: xnft-tool
-          path: /target/debug/xnft-tool
+          path: /target/release/xnft-tool
 
   # release: 
   #   name: Release project
