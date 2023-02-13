@@ -16,11 +16,11 @@ jobs:
         run: cargo build
       - name: Run tests
         run: cargo test --verbose
-  #     - name: upload binary file artifact
-  #       uses: actions/upload-artifact@v3
-  #       with: 
-  #         name: xnft-tool
-  #         path: /target/debug/xnft-tool
+      - name: upload binary file artifact
+        uses: actions/upload-artifact@v3
+        with: 
+          name: xnft-tool
+          path: /target/debug/xnft-tool
 
   # release: 
   #   name: Release project
