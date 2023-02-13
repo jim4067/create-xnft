@@ -1,10 +1,10 @@
 [package]
-name = "create-xnft"
+name = "xnft-tool"
 version = "0.1.0"
 edition = "2021"
-repository = "https://github.com/jim4067/create-xnft/"
+repository = "https://github.com/jim4067/xnft-tool/"
 license = "MIT OR Apache-2.0"
-keywords = ["cli", "xnft"]
+keywords = ["cli", "xnft", "solana"]
 categories = ["command-line-utilities"]
 readme = "README.md"
 description = "Quickly scaffold an xNFT"
